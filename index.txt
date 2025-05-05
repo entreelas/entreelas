@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entre Elas - Histórias que Conectam</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff0f5;
+      color: #333;
+    }
+    header {
+      background-color: #e75480;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+    }
+    .story {
+      background-color: white;
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .story h3 {
+      margin-top: 0;
+    }
+    .button {
+      background-color: #e75480;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f8c8dc;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Entre Elas</h1>
+    <p>Histórias que Conectam</p>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#historias">Histórias</a>
+      <a href="#como-funciona">Como Funciona</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h2>Bem-vinda ao Entre Elas</h2>
+      <p>Histórias feitas para mulheres que amam mulheres. Romance, emoção e conexão em cada conto.</p>
+    </section>
+
+    <section id="historias">
+      <h2>Histórias Disponíveis</h2>
+
+      <div class="story">
+        <h3>Aurora</h3>
+        <p>Um reencontro inesperado entre duas mulheres que nunca esqueceram o passado. Uma história sobre perdão, paixão e recomeços.</p>
+        <p><strong>Valor:</strong> R$ 9,90</p>
+        <p><strong>Chave Pix:</strong> suzana.leao1999@gmail.com</p>
+        <button class="button" onclick="alert('Após o pagamento via Pix, envie o comprovante para o e-mail ou WhatsApp informados na seção Contato. Você receberá um link exclusivo para continuar a leitura.')">Comprar via Pix</button>
+      </div>
+
+      <div class="story">
+        <h3>Fragmentos de Nós</h3>
+        <p>Entre poesia e realidade, duas mulheres constroem uma relação profunda enquanto aprendem a se amar por inteiro.</p>
+        <p><strong>Valor:</strong> R$ 9,90</p>
+        <p><strong>Chave Pix:</strong> suzana.leao1999@gmail.com</p>
+        <button class="button" onclick="alert('Após o pagamento via Pix, envie o comprovante para o e-mail ou WhatsApp informados na seção Contato. Você receberá um link exclusivo para continuar a leitura.')">Comprar via Pix</button>
+      </div>
+    </section>
+
+    <section id="como-funciona">
+      <h2>Como Funciona</h2>
+      <ol>
+        <li>Escolha uma história e copie a chave Pix: <strong>suzana.leao1999@gmail.com</strong></li>
+        <li>Faça o pagamento do valor informado</li>
+        <li>Envie o comprovante por e-mail ou WhatsApp</li>
+        <li>Você receberá o início da história por e-mail e um link exclusivo para continuar lendo no site</li>
+      </ol>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Sou apaixonada por escrever histórias que tocam o coração de outras mulheres. Neste espaço, compartilho contos criados com afeto, verdade e sensibilidade.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Envie o comprovante ou dúvidas para:</p>
+      <ul>
+        <li><strong>Email:</strong> suzana.leao1999@gmail.com</li>
+        <li><strong>WhatsApp:</strong> (adicione aqui o número depois)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Entre Elas - Histórias que Conectam</p>
+  </footer>
+</body>
+</html>
